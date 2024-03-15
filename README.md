@@ -168,10 +168,13 @@ printf("Secret key for the Alice is : %lld\n", ka);
 printf("Secret Key for the Bob is : %lld\n", kb);
 return 0;
 }
+
+
 ```
 ## OUTPUT:
+![WhatsApp Image 2024-03-15 at 14 39 58_9a937cd1](https://github.com/SAKTHIPRIYASATHISH/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119104282/b8bd389b-beef-4eb3-9129-0b4e88aa030b)
 
-<img width="342" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/a3f5b0fa-ef81-4215-9521-2a16c87cef68">
+
 
 
 ## RESULT: 
@@ -206,6 +209,7 @@ same process for the remaining plain text characters.
 
 ```
 from cryptography.fernet import Fernet
+print("Enter the string: ")
 message = input()
 key = Fernet.generate_key()
 fernet = Fernet(key)
@@ -216,10 +220,13 @@ print("encrypted string: ", encMessage)
 decMessage = fernet.decrypt(encMessage).decode()
  
 print("decrypted string: ", decMessage)
+
+
 ```
 ## OUTPUT:
 
-<img width="756" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/23e74c08-7cea-4381-b9fe-97e247b17470">
+![WhatsApp Image 2024-03-15 at 14 40 07_d4c95fed](https://github.com/SAKTHIPRIYASATHISH/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119104282/9f468971-f387-474c-9e10-3fb82d0b5a55)
+
 
 ## RESULT:
 
