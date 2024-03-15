@@ -21,6 +21,7 @@ STEP-7: Decryption is done as cipherdmod n.
 
 ## PROGRAM:
 ```
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -82,9 +83,13 @@ int decryptedMessage = decrypt(ciphertext, d, n);
 printf("Decrypted message: %d\n", decryptedMessage);
 return 0;
 }
+
+
+
 ```
 ## OUTPUT:
-![Screenshot 2024-03-05 113517](https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/b96f8704-db74-4fb0-835d-078d58644625)
+![WhatsApp Image 2024-03-15 at 14 39 54_bdcc513a](https://github.com/SAKTHIPRIYASATHISH/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119104282/2a5ea3d6-356b-4314-bb09-85c8cf33915a)
+
 
 
 ## RESULT :
